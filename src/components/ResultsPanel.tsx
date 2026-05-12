@@ -16,7 +16,6 @@ function fmt(n: number, sym: string): string {
 
 export default function ResultsPanel({ result, currencySymbol: sym }: ResultsPanelProps) {
   const year5 = result.projections[4];
-  const lastYear = result.projections[result.projections.length - 1];
   const profitable = result.tenYearNet >= 0;
 
   return (
