@@ -15,11 +15,9 @@ Bureau Ovale was founded to support local farming communities through community-
 
 ## Projects
 
-### 🌿 [ROI Calculator](./roi-calculator/)
+### 🌿 ROI Calculator
 
 An interactive web tool that lets investors model avocado tree returns across a 10-year horizon. Configure your investment (plant count, currency, market mix, costs) and get a year-by-year projection of yield, revenue, and break-even point.
-
-→ See [`roi-calculator/README.md`](./roi-calculator/README.md) for full documentation and setup instructions.
 
 ---
 
@@ -28,16 +26,14 @@ An interactive web tool that lets investors model avocado tree returns across a 
 ```
 BureauOvale/
 ├── README.md               # ← You are here — Bureau Ovale overview
-└── roi-calculator/         # Avocado ROI Calculator app (React + TypeScript)
-    ├── README.md            # Calculator documentation & setup guide
-    ├── src/
-    │   ├── components/      # UI components
-    │   ├── lib/             # Core projection logic
-    │   ├── App.tsx
-    │   └── main.tsx
-    ├── package.json
-    ├── vite.config.ts
-    └── tailwind.config.js
+├── src/
+│   ├── components/          # UI components
+│   ├── lib/                 # Core projection logic
+│   ├── App.tsx
+│   └── main.tsx
+├── package.json
+├── vite.config.ts
+└── tailwind.config.js
 ```
 
 ## Getting Involved
