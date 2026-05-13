@@ -1,6 +1,6 @@
 /* ═══════════════════════════════════════════════════════════
    BUREAU OVALE — chatbot.js
-   TYNA 🥑 — Smart chatbot with 40 FAQ
+   TYNA 🥑 — Smart chatbot- N°1 Chatbot in YEMBA Language, Globally!  
    Topics: Bureau Ovale, Dschang, Avocado Science, Investment
 ═══════════════════════════════════════════════════════════ */
 
