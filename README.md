@@ -1,77 +1,49 @@
-# Bureau Ovale — Avocado Investment ROI Calculator
+# 🥑 Bureau Ovale
 
-A clean, interactive web app that helps investors model avocado tree returns over a 10-year horizon. Built for the [Bureau Ovale](https://github.com/SuperMatrixi/BureauOvale) avocado cooperative.
+**Bureau Ovale** is an avocado cooperative dedicated to sustainable, organic farming and transparent impact investing. We connect investors with smallholder avocado farmers, providing tools and resources that make agri-investment accessible and accountable.
 
-## Features
+## About the Association
 
-- **10-year projection** — year-by-year yield, revenue, and cumulative net return
-- **Multi-currency support** — GBP, USD, EUR with sensible market defaults
-- **Configurable parameters** — plant count, bundle price, local/export split, farming costs, crop loss rate
-- **Growth phase timeline** — visual breakdown from seedling to full maturity
-- **Break-even detection** — highlights the year your investment turns profitable
+Bureau Ovale was founded to support local farming communities through community-led, export-oriented avocado production. Our model places farmers at the centre, ensuring fair revenue sharing between local markets and international export channels.
 
-## Tech stack
-
-| Layer | Choice |
+| What we do | How |
 |---|---|
-| Framework | [React 18](https://react.dev) + [TypeScript](https://typescriptlang.org) |
-| Build tool | [Vite 5](https://vitejs.dev) |
-| Styling | [Tailwind CSS v3](https://tailwindcss.com) |
-| Icons | [Lucide React](https://lucide.dev) |
+| Organic avocado cultivation | Sustainable, pesticide-free growing practices |
+| Investor transparency | Open projections and honest yield modelling |
+| Community impact | Fair-trade revenue split with local farmers |
+| Market access | Dual-channel sales — local & export |
 
-## Project structure
+## Projects
 
-```
-bureau-ovale/
-├── public/              # Static assets served at /
-├── src/
-│   ├── components/      # UI components
-│   │   ├── HowItWorks.tsx
-│   │   ├── InputPanel.tsx
-│   │   ├── ResultsPanel.tsx
-│   │   └── Timeline.tsx
-│   ├── lib/
-│   │   └── calculations.ts   # Core projection logic
-│   ├── App.tsx
-│   ├── index.css
-│   ├── main.tsx
-│   └── vite-env.d.ts
-├── index.html
-├── package.json
-├── tailwind.config.js
-├── tsconfig.json
-└── vite.config.ts
-```
+### 🌿 [ROI Calculator](./roi-calculator/)
 
-## Getting started
+An interactive web tool that lets investors model avocado tree returns across a 10-year horizon. Configure your investment (plant count, currency, market mix, costs) and get a year-by-year projection of yield, revenue, and break-even point.
 
-```bash
-# Install dependencies
-npm install
-
-# Start the dev server
-npm run dev
-
-# Type-check
-npm run typecheck
-
-# Production build
-npm run build
-```
-
-## Projection model
-
-Plants are sold in bundles of 10. The yield model assumes:
-
-| Year | Phase | Fruits / plant |
-|------|-------|---------------|
-| 1–2 | Growth | 0 |
-| 3–4 | First Fruit | 30–50 |
-| 5–6 | Moderate Yield | 100–150 |
-| 7–10 | Full Maturity | 200–300 |
-
-Average avocado weight is modelled at **0.2 kg**. Revenue is split between local and export markets at the prices you configure. Production costs and crop-loss rate are applied on top.
+→ See [`roi-calculator/README.md`](./roi-calculator/README.md) for full documentation and setup instructions.
 
 ---
 
-*Projections use conservative estimates. Actual results depend on climate, soil, market conditions, and farming practices.*
+## Repository Structure
+
+```
+BureauOvale/
+├── README.md               # ← You are here — Bureau Ovale overview
+└── roi-calculator/         # Avocado ROI Calculator app (React + TypeScript)
+    ├── README.md            # Calculator documentation & setup guide
+    ├── src/
+    │   ├── components/      # UI components
+    │   ├── lib/             # Core projection logic
+    │   ├── App.tsx
+    │   └── main.tsx
+    ├── package.json
+    ├── vite.config.ts
+    └── tailwind.config.js
+```
+
+## Getting Involved
+
+We welcome contributions from developers, agronomists, and investors alike. Open an issue or pull request to suggest improvements to the calculator, expand the projection model, or propose new tools for the cooperative.
+
+---
+
+*Bureau Ovale — Growing together, one avocado at a time.*
