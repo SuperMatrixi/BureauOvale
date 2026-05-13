@@ -55,8 +55,8 @@ const TYNA = {
     {
       id: 7, cat: 'association',
       q:  { fr: "Quelle est la vision à 10 ans de Bureau Ovale ?", en: "What is Bureau Ovale's 10-year vision?", ye: "Vision 10 ŋkar yà nɛ̀?" },
-      a:  { fr: "Horizon 1 (2026-29): Projet Mbilé opérationnel, premières récoltes bio exportées. Horizon 2 (29-32): Usine Douala, gamme huile+cosmétiques. Horizon 3 (32-36): Référence africaine de l'avocat bio 'origine Cameroun' sur les marchés européens.",
-           en: "H1 (2026-29): Mbilé project operational, first organic harvests exported. H2 (29-32): Douala processing plant, oil+cosmetics range. H3 (32-36): Africa's reference for 'Cameroon origin' organic avocado in European markets.",
+      a:  { fr: "Horizon 1 (2026-29): Projet Mbilé opérationnel, premières récoltes bio exportées. GRAND CRU 2026-27. Horizon 2 (29-32): Usine Douala, gamme huile+cosmétiques. Horizon 3 (32-36): Référence africaine de l'avocat bio 'origine Cameroun' sur les marchés européens.",
+           en: "H1 (2026-29): Mbilé project operational, first organic harvests exported. GREAT SEASON 2026-27. H2 (29-32): Douala processing plant, oil+cosmetics range. H3 (32-36): Africa's reference for 'Cameroon origin' organic avocado in European markets.",
            ye: "H1 (2026-29): Mbilé + export. H2 (29-32): Usine Douala. H3 (32-36): Référence avoka bio Afrique → Europe." }
     },
     {
