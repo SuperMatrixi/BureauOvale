@@ -26,11 +26,28 @@ An interactive web tool that lets investors model avocado tree returns across a 
 ```
 BureauOvale/
 ├── README.md               # ← You are here — Bureau Ovale overview
-├── src/
-│   ├── components/          # UI components
-│   ├── lib/                 # Core projection logic
+├── index.html              # Main single-page website
+├── content.md              # All website copy (FR / EN / Yemba)
+├── mindmap.md              # Architecture & section map
+├── assets/
+│   ├── css/
+│   │   └── style.css       # Bamiléké-inspired stylesheet
+│   ├── js/
+│   │   ├── chatbot.js      # TYNA chatbot (40 FAQ, trilingual)
+│   │   └── main.js         # Nav, ticker, carousel, ROI, FAQ, GDPR
+│   └── images/             # Farm & field photography
+│       ├── MainfieldMbilé.jpg
+│       ├── 2ndfieldMbilé.jpg
+│       ├── AvocadoplantMbilé.jpg
+│       ├── Défrichagechamp.jpg
+│       ├── ProfessorDjoumessiatwork.jpg
+│       └── Semanceschamp.jpg
+├── src/                    # React ROI Calculator (Vite / TypeScript)
+│   ├── components/         # UI components
+│   ├── lib/                # Core projection logic
 │   ├── App.tsx
-│   └── main.tsx
+│   ├── main.tsx
+│   └── index.css           # App stylesheet
 ├── package.json
 ├── vite.config.ts
 └── tailwind.config.js
