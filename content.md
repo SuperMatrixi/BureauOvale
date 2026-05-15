@@ -109,7 +109,17 @@ APDABA — Bureau Ovale · Association régie par la loi française du 1er juill
 | 📍 | 7 rue des Sillons de Boulangers, 95470 Saint-Witz (Roissy), France | Mbilé, Foreke-Dschang, Région de l'Ouest, Cameroun |
 | 🌐 Maps | https://maps.app.goo.gl/Ts6VZ91yTstbhEXG8 | https://maps.app.goo.gl/m53vwSyxPwoF9pq6A |
 | 📍 GPS | 49.0833°N, 2.5°E | 5.4467°N, 10.0492°E |
-| ✉️ Email | contact@bureauovale.com | apdaba@bureauovale.com |
+| ✉️ Email | saintjosci@gmail.com | — |
+| 📞 Téléphone | +33 075 88 19 062 | — |
+| 💬 WhatsApp | +33 06 01 75 30 43 (https://wa.me/33601753043) | — |
+
+### Partenaires
+
+| Partenaire | URL | Image |
+|---|---|---|
+| ANTOiNETTE DATA CENTER | https://antoinettedata.org/ | `ADCJingles4.gif` |
+| COMET | Perplexity invite (see index.html) | `CometLogo1.png` |
+| ADMP — African Digital Marketplace | https://www.admpawards.biz/ | `ADMPLogo1.png` |
 
 ---
 
