@@ -60,6 +60,11 @@ bureau-ovale-site/
    ├── 5 filter tabs: All | Association | Investment | Science | Dschang
    └── 40 accordion items (FR/EN/YMBA)
 
+7b. PARTNERS (#partners) ← NEW
+   ├── ANTOiNETTE DATA CENTER (ADCJingles4.gif) → antoinettedata.org
+   ├── COMET (CometLogo1.png) → Perplexity/Comet invite
+   └── ADMP (ADMPLogo1.png) → admpawards.biz
+
 8. JOIN (#join)
    └── Newsletter signup form + WhatsApp CTA
 
@@ -101,16 +106,19 @@ FLOATERS:
 
 Place these in `assets/images/`:
 
-| Filename | Usage |
-|---|---|
-| `MainfieldMbile.jpg` | Hero background + Carousel slide 1 |
-| `2ndfieldMbile.jpg` | Carousel slide 2 |
-| `AvocadoplantMbile.jpg` | Carousel slide 3 |
-| `Defrichagechamp.jpg` | Carousel slide 4 |
-| `ProfessorDjoumessiatwork.jpg` | Carousel slide 5 |
-| `Semanceschamp.jpg` | Carousel slide 6 |
-| `og-image.jpg` | Social share thumbnail (1200×630px) |
-| `logo.svg` | Browser tab + structured data |
+| Filename | Usage | CSS framing |
+|---|---|---|
+| `MainfieldMbilé.jpg` | Hero + Carousel slide 1 | `cover` (landscape) |
+| `2ndfieldMbilé.jpg` | Carousel slide 2 | `cover` (landscape) |
+| `AvocadoplantMbilé.jpg` | Carousel slide 3 | **letterbox** — `contain` + black bars |
+| `Défrichagechamp.jpg` | Carousel slide 4 | **letterbox** — `contain` + black bars |
+| `ProfessorDjoumessiatwork.jpg` | Carousel slide 5 | **letterbox** — `contain` + black bars |
+| `Semanceschamp.jpg` | Carousel slide 6 | **letterbox** — `contain` + black bars |
+| `ADCJingles4.gif` | Partners — ANTOiNETTE DATA CENTER | `object-fit:contain` |
+| `CometLogo1.png` | Partners — COMET | `object-fit:contain` |
+| `ADMPLogo1.png` | Partners — ADMP | `object-fit:contain` |
+| `og-image.jpg` | Social share thumbnail (1200×630px) | — |
+| `logo.svg` | Browser tab + structured data | — |
 
 ---
 
