@@ -544,19 +544,12 @@ input, textarea, select { font-family: inherit; font-size: 1rem; }
   height: 480px; width: 100%;
   background-size: cover; background-position: center;
 }
-/* Letterbox (contain + black bars L/R) for portrait/non-16:9 images */
-.slide-img-letterbox {
-  background-size: contain !important;
-  background-repeat: no-repeat !important;
-  background-position: center center !important;
-  background-color: #000 !important;
-}
-.slide-img-1 { background: linear-gradient(135deg, #2d6a4f 0%, #1a3a2a 50%, #4a7c59 100%); background-image: url('../images/MainfieldMbilé.jpg'), url('../images/MainfieldMbile.jpg'), linear-gradient(135deg, #2d6a4f, #1a3a2a); }
-.slide-img-2 { background: linear-gradient(135deg, #3d8b67 0%, #2c5f3f 50%, #52b788 100%); background-image: url('../images/2ndfieldMbilé.jpg'), url('../images/2ndfieldMbile.jpg'), linear-gradient(135deg, #3d8b67, #2c5f3f); }
-.slide-img-3 { background-image: url('../images/AvocadoplantMbilé.jpg'), url('../images/AvocadoplantMbile.jpg'); }
-.slide-img-4 { background-image: url('../images/Défrichagechamp.jpg'), url('../images/Defrichagechamp.jpg'); }
-.slide-img-5 { background-image: url('../images/ProfessorDjoumessiatwork.jpg'); }
-.slide-img-6 { background-image: url('../images/Semanceschamp.jpg'); }
+.slide-img-1 { background: linear-gradient(135deg, #2d6a4f 0%, #1a3a2a 50%, #4a7c59 100%); background-image: url('../images/MainfieldMbile.jpg'), linear-gradient(135deg, #2d6a4f, #1a3a2a); }
+.slide-img-2 { background: linear-gradient(135deg, #3d8b67 0%, #2c5f3f 50%, #52b788 100%); background-image: url('../images/2ndfieldMbile.jpg'), linear-gradient(135deg, #3d8b67, #2c5f3f); }
+.slide-img-3 { background: linear-gradient(135deg, #52b788 0%, #2d6a4f 50%, #74c69d 100%); background-image: url('../images/AvocadoplantMbile.jpg'), linear-gradient(135deg, #52b788, #2d6a4f); }
+.slide-img-4 { background: linear-gradient(135deg, #5a3320 0%, #3d2314 50%, #7a4a2e 100%); background-image: url('../images/Defrichagechamp.jpg'), linear-gradient(135deg, #5a3320, #3d2314); }
+.slide-img-5 { background: linear-gradient(135deg, #3d2314 0%, #2c1810 50%, #5a3320 100%); background-image: url('../images/ProfessorDjoumessiatwork.jpg'), linear-gradient(135deg, #3d2314, #2c1810); }
+.slide-img-6 { background: linear-gradient(135deg, #d4af37 0%, #b8860b 50%, #e8c97a 100%); background-image: url('../images/Semanceschamp.jpg'), linear-gradient(135deg, #d4af37, #b8860b); }
 @media(max-width:600px){ .slide-img { height: 280px; } }
 
 .slide-caption {
@@ -770,80 +763,6 @@ td.mu { color: var(--muted); }
 .stage-card p { font-size: 12px; color: var(--muted); line-height: 1.5; margin-bottom: 8px; }
 .se { font-size: 13px; font-weight: 800; color: var(--green-700); }
 .se.mu { color: var(--muted); }
-
-/* ── PARTNERS ────────────────────────────────────────────── */
-.partners-section { background: var(--white); }
-.partners-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
-  margin-top: 8px;
-}
-@media(max-width:760px){ .partners-grid { grid-template-columns: 1fr; } }
-
-.partner-card {
-  display: flex; flex-direction: column; align-items: center;
-  text-align: center;
-  background: var(--white);
-  border: 1.5px solid var(--border);
-  border-radius: var(--radius-lg);
-  padding: 32px 24px;
-  box-shadow: var(--sh-sm);
-  text-decoration: none;
-  color: inherit;
-  transition: all 0.25s;
-  position: relative;
-  overflow: hidden;
-}
-.partner-card::before {
-  content: '';
-  position: absolute; top: 0; left: 0; right: 0;
-  height: 3px;
-  background: linear-gradient(90deg, var(--gold-500), var(--green-500), var(--brown-500));
-  opacity: 0; transition: opacity .25s;
-}
-.partner-card:hover {
-  box-shadow: var(--sh-lg);
-  transform: translateY(-4px);
-  border-color: var(--gold-400);
-}
-.partner-card:hover::before { opacity: 1; }
-
-.partner-logo-wrap {
-  width: 140px; height: 80px;
-  display: flex; align-items: center; justify-content: center;
-  margin-bottom: 18px;
-  border-radius: var(--radius-sm);
-  overflow: hidden;
-}
-.partner-logo {
-  max-width: 140px; max-height: 80px;
-  width: auto; height: auto;
-  object-fit: contain;
-}
-.partner-logo-anim { image-rendering: auto; }
-.partner-logo-fallback {
-  font-family: var(--font-display); font-weight: 900;
-  font-size: 1.4rem; color: var(--brown-700);
-  background: var(--brown-50); border-radius: var(--radius-sm);
-  width: 100%; height: 100%;
-  display: flex; align-items: center; justify-content: center;
-}
-.partner-name {
-  font-family: var(--font-display); font-weight: 700;
-  font-size: 1rem; color: var(--brown-900);
-  margin-bottom: 8px; line-height: 1.2;
-}
-.partner-desc {
-  font-size: 0.78rem; color: var(--muted); line-height: 1.6;
-  margin-bottom: 14px;
-}
-.partner-link {
-  font-size: 12px; font-weight: 700; color: var(--gold-700);
-  font-family: var(--font-mono);
-  transition: color .15s;
-}
-.partner-card:hover .partner-link { color: var(--brown-800); }
 
 /* ── FAQ ─────────────────────────────────────────────────── */
 .faq-section { background: var(--brown-50); }
