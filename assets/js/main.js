@@ -569,8 +569,8 @@ if (localStorage.getItem('gdpr')) {
 
 /* ═══ INIT ══════════════════════════════════════════════════ */
 document.addEventListener('DOMContentLoaded', () => {
-  buildTicker();
-  renderFaq('all');
+  // Sync all translatable text with the default language
+  setLang(currentLang);
   ROI.calc();
   ROI.updateSlider();
   ROI.updateLoss();
