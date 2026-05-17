@@ -343,4 +343,4 @@ const TYNA = {
 };
 
 /* ─── EXPORT for use in main.js ───────────────────────────── */
-if (typeof module !== 'undefined') module.exports = TYNA;
+export default TYNA;

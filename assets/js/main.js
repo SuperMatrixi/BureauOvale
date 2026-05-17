@@ -3,6 +3,7 @@
    All interactive features: nav, ticker, carousel, ROI calc,
    FAQ, chatbot, GDPR, WhatsApp bubble, language switcher
 ═══════════════════════════════════════════════════════════ */
+import TYNA from './chatbot.js';
 
 /* ═══ LANGUAGE SYSTEM ══════════════════════════════════════ */
 let currentLang = 'fr';
@@ -575,3 +576,14 @@ document.addEventListener('DOMContentLoaded', () => {
   ROI.updateSlider();
   ROI.updateLoss();
 });
+
+// Expose handlers for inline HTML attributes (onclick/onsubmit) in index.html.
+window.ROI = ROI;
+window.toggleFaq = toggleFaq;
+window.toggleChat = toggleChat;
+window.sendChat = sendChat;
+window.handleNewsletter = handleNewsletter;
+window.handleContact = handleContact;
+window.handleWA = handleWA;
+window.toggleWA = toggleWA;
+window.setGDPR = setGDPR;
