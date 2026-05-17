@@ -563,8 +563,10 @@ input, textarea, select { font-family: inherit; font-size: 1rem; }
 /* Slide image placeholders — replace with actual <img> tags */
 .slide-img {
   height: 480px; width: 100%;
-  background-size: cover; background-position: center;
-  /* Cover by default — fills the frame, crops edges */
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #000;
 }
 /* Letterbox (contain + black bars) for portrait / non-16:9 images.
    Caption overlay still works because it's position:absolute on the slide. */
