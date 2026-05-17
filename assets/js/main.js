@@ -577,7 +577,7 @@ document.addEventListener('DOMContentLoaded', () => {
   ROI.updateLoss();
 });
 
-// Expose inline HTML handlers to global scope
+// Expose handlers for inline HTML attributes (onclick/onsubmit) in index.html.
 window.ROI = ROI;
 window.toggleFaq = toggleFaq;
 window.toggleChat = toggleChat;
